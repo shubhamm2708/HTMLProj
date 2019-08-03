@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONTACT FORM</title>
+	<style>
+		.top{
+			padding : 20px ;
+			text-align: center;
+			margin-top: 0px;
+		}
+		.option{
+			background-color: white ;
+			padding: 12px;
+		}
+		.contact{
+			margin-right: auto;
+			margin-left: auto;
+			border: 5px solid black;
+			border-radius: 15px;
+			padding: 12px;
+			width: 50%;
+			background-color: lightpink;
+		}
+		.frominput{
+			font-size: 28px;
+			padding-bottom: 18px;
+			margin-top: 19px;
+			margin-bottom: 19px;
+			border-top:0;
+			border-right: 0;
+			border-left: 0;
+			border-bottom: 1px solid black;
+			width:100%;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: lightpink;
+		}
+		textarea{
+			width: 100%;
+			font-size: 28px;
+		}
+		#done{
+			background-color: crimson;
+			color: white;
+			border: 4px solid black;
+			border-radius: 22px;
+			padding-left: 24px;
+			padding-right:24px;
+			padding-top:16px;
+			padding-bottom: 12px;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body style="background-color: lightyellow">
+	<div class="top" style="background-color: lightgreen">
+		<span class="option">
+			<a href="HTMLFinal.html">TRIPS</a>
+		</span>
+		<span class="option">
+			<a href="HTMLFinalAboutMe.html">ABOUT</a>
+		</span>
+		<span class="option">
+			<a href="HTMLFinalContactForm.html">CONTACT</a>
+		</span>
+	</div>
+	<h1 style="text-align: center;">
+		CONTACT FORM
+	</h1>
+
+	<form class="contact" method="GET">
+		<input class="frominput" type="text" name="name" placeholder="Name" autofocus required>
+		<input class="frominput" type="email" name="email" placeholder="E-Mail" required>
+		<input class="frominput" type="number" name="number" placeholder="Phone Number" required>
+		<input class="frominput" type="text" name="country" placeholder="Country"> 
+		<p style="font-size: 28px;margin-bottom: 0px">Comments : </p><br /><textarea rows="6" placeholder="Anything you would like to share with us..."></textarea>
+		<center><input type="submit" id="done" value="Done!!"></center>
+	</form>
+	<br><br><br>
+	<footer style="text-align: center;background-color: lightblue;font-size: 20px;padding: 14px">
+		HAPPY JOURNEY!!!!!
+		<br>&copy; Copyright 2019
+	</footer>
+	<br />
+	<br />
+</body>
+</html>
